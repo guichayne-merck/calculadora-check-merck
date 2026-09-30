@@ -253,7 +253,7 @@ if (
     st.markdown(
         f"""
         <div class="resultado">
-            {resultado:.2f}%
+            {resultado:.0f}%
         </div>
         """,
         unsafe_allow_html=True
